@@ -1,133 +1,162 @@
-# GitHub Pages 포트폴리오 배포 가이드
+# EUNMIN's Portfolio 👨‍💻
 
-## 📁 이 폴더에 포함된 파일
-- `index.html` - 포트폴리오 웹페이지 (PDF 뷰어 포함)
-- `Eunmin_Park_iOS_Developer_Portfolio.pdf` - 포트폴리오 PDF
+Senior iOS Developer | CTO at High Software | Quantum Computing Enthusiast
 
 ---
 
-## 🚀 배포 방법 (Step by Step)
+## About Me
 
-### Step 1: GitHub 레포지토리 생성
+I'm a **Senior iOS Developer with 6+ years of experience** specializing in **SwiftUI and native iOS development**, currently serving as CTO at High Software. I'm actively transitioning into quantum computing while maintaining expertise in modern iOS architecture and development practices.
 
-1. GitHub.com 접속 → 로그인
-2. 오른쪽 상단 `+` 클릭 → `New repository`
-3. Repository name: `portfolio` (또는 원하는 이름)
-4. Public 선택 (GitHub Pages 무료 사용을 위해)
-5. `Create repository` 클릭
-
-### Step 2: 파일 업로드
-
-**방법 A: GitHub 웹에서 직접 업로드**
-1. 생성된 레포지토리 페이지에서 `Add file` → `Upload files`
-2. 이 폴더의 `index.html`과 `Eunmin_Park_iOS_Developer_Portfolio.pdf` 드래그 앤 드롭
-3. `Commit changes` 클릭
-
-**방법 B: Git 명령어 사용**
-```bash
-# 레포지토리 클론
-git clone https://github.com/Minapak/portfolio.git
-cd portfolio
-
-# 파일 복사 (이 폴더의 파일들을 복사)
-# index.html과 PDF 파일을 portfolio 폴더로 복사
-
-# 커밋 & 푸시
-git add .
-git commit -m "Add portfolio files"
-git push origin main
-```
-
-### Step 3: GitHub Pages 활성화
-
-1. 레포지토리 페이지에서 `Settings` 탭 클릭
-2. 왼쪽 메뉴에서 `Pages` 클릭
-3. **Source** 섹션에서:
-   - Branch: `main` 선택
-   - Folder: `/ (root)` 선택
-4. `Save` 클릭
-
-### Step 4: 배포 확인 (1-2분 소요)
-
-배포 완료 후 접속 가능한 URL:
-```
-https://minapak.github.io/portfolio/
-```
-
-> ⚠️ `minapak`을 본인의 GitHub username으로, `portfolio`를 레포지토리 이름으로 변경하세요.
+**Recognition & Achievements:**
+- 🏆 **Excellence Award** - 2024 Open Data Forum for innovative civic tech solution
+- 📋 **Patent Holder** - Filed patents for innovative iOS solutions
+- 🌐 **Woorinara** - Government-recognized app helping foreign residents navigate Korean civil services
+- 🔬 **IEEE Member** - Active in quantum computing community
 
 ---
 
-## 🔗 최종 URL 예시
+## Technical Expertise
 
-| 용도 | URL |
-|------|-----|
-| 포트폴리오 페이지 | `https://minapak.github.io/portfolio/` |
-| PDF 직접 링크 | `https://minapak.github.io/portfolio/Eunmin_Park_iOS_Developer_Portfolio.pdf` |
+### Primary Skills
+- **iOS Development:** SwiftUI, UIKit, Combine, Async/Await
+- **Architecture:** MVVM, Clean Architecture, Reactive Programming
+- **Backend:** Node.js, PostgreSQL, Redis, AWS
+- **Emerging:** Quantum Computing, Quantum Algorithms
 
----
+### Languages
+- Swift, TypeScript/JavaScript, Python, Rust (learning)
+- English, Korean (Native)
 
-## 💡 Upwork/LinkedIn에 링크 추가하기
-
-### Upwork 프로필에 추가:
-1. Upwork 프로필 → `Edit Profile`
-2. Portfolio 섹션에서 `Add Project`
-3. **Project URL**: `https://minapak.github.io/portfolio/`
-
-### LinkedIn에 추가:
-1. LinkedIn 프로필 → `Add profile section`
-2. `Featured` 선택
-3. `Add a link` → GitHub Pages URL 입력
+### Tools & Platforms
+- Xcode, Git, GitHub, AWS, Docker
+- Figma, Postman, XCTest, SwiftUI Preview
 
 ---
 
-## 🎨 커스터마이징 (선택사항)
+## Featured Projects
 
-### index.html 수정 포인트:
+### 🍎 Woorinara
+**iOS App for Korean Civil Services Navigation**
+- Helps foreign residents understand complex Korean civil service processes
+- Recipient of 2024 Open Data Forum Excellence Award
+- Focus: Accessibility, User Experience, Real-world impact
 
-1. **Upwork 링크 변경** (현재 설정됨):
-```html
-<a href="https://www.upwork.com/freelancers/~0148c177b041f931fe" target="_blank">💼 Upwork</a>
+### 🏪 Market-Mate
+**AI-Powered Platform Connecting Traditional Markets & Entrepreneurs**
+- Flutter cross-platform development
+- AI integration for vendor-consumer matching
+- Supporting small businesses and market digitalization
+
+### ⚛️ SwiftQuantum Framework
+**Quantum Computing Framework for iOS Development**
+- Currently developing educational quantum computing libraries
+- Making quantum concepts accessible to iOS developers
+- Research-backed implementation following IEEE Quantum Week learnings
+
+### 📚 iOS Quantum Engineer Blog Series
+**Educational Content on Quantum Computing**
+- Complex quantum theory explained for developers
+- Bridges gap between quantum physics and software engineering
+- Comprehensive technical breakdowns with visual learning approaches
+
+---
+
+## Recent Experience
+
+### High Software - CTO
+- Led technical strategy and iOS architecture decisions
+- Mentored development team on SwiftUI best practices
+- Optimized app performance and user experience
+
+### Freelance iOS Development (Upwork)
+- Developed multiple client projects with focus on clean architecture
+- Specialized in SwiftUI and modern iOS patterns
+- 5+ stars rating with repeat clients
+
+---
+
+## Current Focus
+
+🔬 **Quantum Computing Transition**
+- Attended IEEE Quantum Week 2025 (Albuquerque)
+- Developing SwiftQuantum framework for iOS developers
+- Creating accessible educational materials on quantum concepts
+- Planning attendance at IEEE Quantum Week 2026 (Canada)
+
+🌍 **Remote Opportunities**
+- Actively seeking **remote iOS development roles with US companies**
+- Open to full-time, contract, and advisory positions
+- Timezone flexible: Based in Korea, experienced with global teams
+
+---
+
+## What I'm Looking For
+
+💼 **Ideal Opportunities:**
+- Remote Senior iOS Engineering roles
+- Companies valuing innovation and technical excellence
+- Teams working on impactful products
+- Organizations supporting continuous learning and quantum computing exploration
+- Collaborative environments with strong engineering culture
+
+---
+
+## Education & Certifications
+
+- IEEE Member
+- Multiple intensive English programs at EF South Beach, Miami
+- Continuous learner: Quantum computing, advanced iOS architectures, emerging technologies
+
+---
+
+## Let's Connect
+
+I'm interested in discussing:
+- ✅ Remote iOS development opportunities
+- ✅ Quantum computing applications in real-world scenarios
+- ✅ Technical mentorship and knowledge sharing
+- ✅ Innovative product development
+
+**How to reach me:**
+- 📧 Email: [your-email@example.com]
+- 💼 LinkedIn: [Your LinkedIn Profile]
+- 🐙 GitHub: [github.com/Minapak](https://github.com/Minapak)
+- 📝 Blog: iOS Quantum Engineer Series
+
+---
+
+## Beyond Code
+
+- 🔬 Fascinated by quantum mechanics and physics
+- 🌴 Most energized and creative in Miami, Florida
+- 🧘 Introvert who recharges through deep work and solitude
+- 📖 Passionate about making complex concepts accessible to broader audiences
+
+---
+
+## Tech Stack Overview
+
+```
+Languages:     Swift, TypeScript, Python, Rust
+iOS Frameworks: SwiftUI, Combine, async/await, Core Data
+Backend:       Node.js, PostgreSQL, Redis
+Cloud:         AWS (Lambda, EC2, S3)
+Cross-platform: Flutter
+Tools:         Git, Docker, Xcode, CI/CD
+Emerging:      Quantum Computing (Qiskit, Cirq concepts)
 ```
 
-2. **스킬 태그 수정**:
-```html
-<div class="skills-preview">
-    <span class="skill-tag">Swift</span>
-    <span class="skill-tag">SwiftUI</span>
-    <!-- 원하는 스킬 추가/수정 -->
-</div>
-```
+---
 
-3. **색상 변경** (CSS에서):
-```css
-/* 배경 그라데이션 */
-background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+## Open Source & Community
 
-/* 버튼 색상 */
-background: linear-gradient(90deg, #3b82f6, #2563eb);
-```
+Contributing to the iOS development community through:
+- Educational quantum computing content
+- Open-source iOS utilities
+- Knowledge sharing on complex technical topics
+- Mentoring aspiring developers
 
 ---
 
-## 🔧 문제 해결
-
-### PDF가 안 보일 때:
-- 파일명이 정확히 `Eunmin_Park_iOS_Developer_Portfolio.pdf`인지 확인
-- 대소문자 구분됨!
-
-### 404 에러:
-- GitHub Pages 설정에서 Branch가 `main`으로 되어있는지 확인
-- 배포까지 1-2분 소요될 수 있음
-
-### 캐시 문제:
-- 브라우저 캐시 삭제 또는 시크릿 모드로 확인
-
----
-
-## 📱 모바일 최적화
-
-이 페이지는 모바일 반응형으로 제작되었습니다:
-- 작은 화면에서 자동으로 레이아웃 조정
-- PDF 뷰어 높이 자동 조절
-- 터치 친화적 버튼 크기
+**Thank you for visiting my portfolio! I'm excited about the intersection of iOS development and quantum computing. Let's build something amazing together.** 🚀
