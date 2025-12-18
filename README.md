@@ -119,10 +119,10 @@ I'm interested in discussing:
 - ✅ Innovative product development
 
 **How to reach me:**
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
+- 📧 Email: [dmsals2008@gmail.com]
+- 💼 LinkedIn: [https://www.linkedin.com/in/eunminpark-ios/]
 - 🐙 GitHub: [github.com/Minapak](https://github.com/Minapak)
-- 📝 Blog: iOS Quantum Engineer Series
+- 📝 Blog: [iOS Quantum Engineer Series](https://eunminpark.hashnode.dev/series/ios-quantum-engineer)
 
 ---
 
