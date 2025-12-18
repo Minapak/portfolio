@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunmin Park | Senior iOS Developer Portfolio</title>
+    <meta name="description" content="Award-winning iOS Developer with 6+ years of experience. SwiftUI, Swift, Full-Stack development.">
+    <meta property="og:title" content="Eunmin Park - Senior iOS Developer">
+    <meta property="og:description" content="Award-winning iOS Developer Portfolio - SwiftUI, Swift Expert">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #f59e0b, #d97706);
+            color: #000;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .contact-links a {
+            color: #60a5fa;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+        
+        .contact-links a:hover {
+            color: #93c5fd;
+        }
+        
+        .pdf-container {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        
+        .pdf-viewer {
+            width: 100%;
+            height: 80vh;
+            border: none;
+        }
+        
+        .download-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #3b82f6, #2563eb);
+            color: #fff;
+            padding: 14px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+        
+        .skills-preview {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+        .skill-tag {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #e2e8f0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .pdf-viewer {
+                height: 60vh;
+            }
+            
+            .contact-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Eunmin Park</h1>
+            <p class="subtitle">Senior iOS Developer | CTO | Full-Stack Engineer</p>
+            <span class="badge">🏆 2024 ODF Excellence Award Winner</span>
+            
+            <div class="contact-links">
+                <a href="mailto:dmsals2008@gmail.com">📧 dmsals2008@gmail.com</a>
+                <a href="https://github.com/Minapak" target="_blank">💻 GitHub</a>
+                <a href="https://www.upwork.com/freelancers/~0148c177b041f931fe" target="_blank">💼 Upwork</a>
+                <a href="https://apps.apple.com/us/app/back-to-school/id1549813076" target="_blank">📱 App Store</a>
+            </div>
+            
+            <div class="skills-preview">
+                <span class="skill-tag">Swift</span>
+                <span class="skill-tag">SwiftUI</span>
+                <span class="skill-tag">iOS</span>
+                <span class="skill-tag">Flutter</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">AWS</span>
+            </div>
+        </header>
+        
+        <div class="pdf-container">
+            <iframe 
+                class="pdf-viewer" 
+                src="Eunmin_Park_iOS_Developer_Portfolio.pdf"
+                title="Eunmin Park iOS Developer Portfolio">
+            </iframe>
+        </div>
+        
+        <div class="download-section">
+            <a href="Eunmin_Park_iOS_Developer_Portfolio.pdf" download class="download-btn">
+                📄 Download PDF Portfolio
+            </a>
+        </div>
+        
+        <footer>
+            <p>Open to remote work with US companies | Flexible for EST/PST time zones</p>
+            <p style="margin-top: 10px;">© 2024 Eunmin Park. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
